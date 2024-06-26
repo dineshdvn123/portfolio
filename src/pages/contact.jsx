@@ -8,6 +8,7 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import HomeScreenLogo from '../assets/logo.png';
 
 import "./styles/contact.css";
 
@@ -34,7 +35,7 @@ const Contact = () => {
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
-							<Logo width={46} />
+						<img src={HomeScreenLogo} alt="logo" className="logo" width='80' />
 						</div>
 					</div>
 
