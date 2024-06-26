@@ -3,7 +3,7 @@ const INFO = {
 		title: "Venkata's Portfolio",
 		name: "Venkata Naga Dinesh Kumar Desai",
 		email: "dineshdvn123@gmail.com",
-		logo: "../logo.png",
+		logo: "../../public/logo.png",
 	},
 
 	socials: {
