@@ -6,17 +6,19 @@
 	padding-bottom: 30px;
 	margin-left: -35px;
 	margin-right: -35px;
+	flex-direction: column;
 }
 
 .all-projects-project {
-	width: calc(100% / 3);
+	width: 100%;
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
+	height: 250px;
 }
 
 @media (max-width: 600px) {
 	.all-projects-project {
-		width: calc(100% / 2);
+		width: 100%;
 	}
 }

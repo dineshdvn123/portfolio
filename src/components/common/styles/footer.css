@@ -3,14 +3,14 @@
 .footer {
 	display: flex;
 	padding-top: 25px;
-	margin-top: 50px;
+	margin-top: 80px;
 	padding-bottom: 25px;
 	align-items: center;
 }
 
 .footer-links,
 .footer-credits {
-	flex-basis: 50%;
+	flex: 1;
 }
 
 .footer-links {
@@ -40,9 +40,9 @@
 
 .footer-credits-text {
 	justify-content: flex-end;
-	color: var(--tertiary-color);
+	color: #1a1a1d;
 	font-size: 14px;
-	text-align: right;
+	text-align: center;
 }
 
 @media (max-width: 600px) {
