@@ -5,7 +5,6 @@ import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Skills from "../components/Skills/Skills";
@@ -13,6 +12,7 @@ import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import HomeScreenLogo from '../assets/logo.png'
 
 import "./styles/homepage.css";
 
@@ -77,7 +77,7 @@ const Homepage = () => {
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
-							<Logo width={logoSize} link={false} />
+							<img src={HomeScreenLogo} alt="logo" className="logo" width='80' />
 						</div>
 						<div className="my-name">
 							<h2>Hi! I am Venkata Naga Dinesh Kumar Desai</h2>
