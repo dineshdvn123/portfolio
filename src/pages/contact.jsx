@@ -31,7 +31,7 @@ const Contact = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
+				{/* <NavBar active="contact" /> */}
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 					</div>
