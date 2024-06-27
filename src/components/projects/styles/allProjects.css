@@ -14,7 +14,6 @@
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;
-	height: 250px;
 }
 
 @media (max-width: 600px) {

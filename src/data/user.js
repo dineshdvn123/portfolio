@@ -33,7 +33,7 @@ const INFO = {
 		{
 			title: "Project 1",
 			description:
-				"The Spotify_Recommendations project is a web application designed to provide personalized song recommendations using the Spotify API. It has a backend implemented in Scala, leveraging Spark for data processing and machine learning, and a frontend built with ReactJS for the user interface. The application fetches user data from Spotify, processes it to generate recommendations, and displays them on the frontend. The project involves integrating various technologies to enhance the recommendation accuracy and user experience.",
+				"The Spotify_Recommendations project is a web application designed to provide personalized song recommendations using the Spotify API. It has a backend implemented in Scala, leveraging Spark for data processing and machine learning, and a frontend built with ReactJS for the user interface. The application fetches user data from Spotify, processes it to generate recommendations, and displays them on the frontend.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/venkatanagadinesh/Spotify_Recommendations",

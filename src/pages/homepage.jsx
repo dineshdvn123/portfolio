@@ -14,6 +14,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 import HomeScreenLogo from '../assets/logo.png'
 import HeroScectionImg from '../assets/homepage.png'
+import Contact from "./contact";
 
 import "./styles/homepage.css";
 
@@ -157,6 +158,7 @@ const Homepage = () => {
 						</div>
 
 						<Skills />
+						<Contact/>
 
 						<div className="page-footer">
 							<Footer />

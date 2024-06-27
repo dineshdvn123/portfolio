@@ -17,7 +17,6 @@
 }
 
 .nav-background {
-	width: 150px;
 	padding-left: 0%;
 	padding-right: 0%;
 	background: #fff;
@@ -27,7 +26,7 @@
 
 .nav-list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	list-style: none;
 	align-items: center;
 	margin-left: -16px;

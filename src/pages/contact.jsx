@@ -30,13 +30,10 @@ const Contact = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content" style={{height: '100vh'}}>
+			<div className="page-content">
 				<NavBar active="contact" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
-						<div className="contact-logo">
-						<img src={HomeScreenLogo} alt="logo" className="logo" width='80' />
-						</div>
 					</div>
 
 					<div className="contact-container">

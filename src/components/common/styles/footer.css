@@ -48,7 +48,7 @@
 @media (max-width: 600px) {
 	.footer {
 		flex-direction: column;
-		height: 85px;
+		justify-content: center;
 	}
 
 	.footer-links {
@@ -60,4 +60,6 @@
 	.footer-nav-link-list {
 		width: 100%;
 	}
+
+	
 }
